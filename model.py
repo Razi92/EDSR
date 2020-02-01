@@ -1,5 +1,4 @@
-from model import common
-
+import commonFunc
 import torch.nn as nn
 
 url = {
