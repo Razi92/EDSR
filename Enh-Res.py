@@ -81,3 +81,4 @@ class EDSR(nn.Module):
                 if name.find('tail') == -1:
                     raise KeyError('unexpected key "{}" in state_dict'
                                    .format(name))
+                    
